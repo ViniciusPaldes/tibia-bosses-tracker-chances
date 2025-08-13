@@ -6,7 +6,7 @@ function formatDateUTC(date) {
 }
 
 async function fetchKillStatsFor(worldName, dateString) {
-    const url = `https://raw.githubusercontent.com/tibiamaps/tibia-kill-stats/refs/heads/main/data/${encodeURIComponent(worldName.toLocaleLowerCase())}/${dateString}.json`;
+    const url = `https://raw.githubusercontent.com/tibiamaps/tibia-kill-stats/main/data/${encodeURIComponent(worldName.toLocaleLowerCase())}/${dateString}.json`;
     const res = await fetch(url);
     if (!res.ok) {
         console.log("Error", res, "url", url);
@@ -20,13 +20,13 @@ async function fetchKillStatsFor(worldName, dateString) {
     }
 }
 
-export async function getLastSeenByBossForWorld(worldName, bossNames, maxDays = 365, baseDate) {
+export async function getLastSeenByBossForWorld(worldName, bossNames, maxDays = 180, baseDate) {
     const today = baseDate instanceof Date ? baseDate : new Date();
     const bossNameSet = new Set(bossNames);
     const lastSeenByBoss = new Map();
     let hadAnyData = false;
 
-    for (let i = 1; i < maxDays +1; i++) {
+    for (let i = 0; i < maxDays; i++) {
         const checkDate = new Date(Date.UTC(
             today.getUTCFullYear(),
             today.getUTCMonth(),
@@ -35,21 +35,24 @@ export async function getLastSeenByBossForWorld(worldName, bossNames, maxDays = 
         checkDate.setUTCDate(checkDate.getUTCDate() - i);
         const ymd = formatDateUTC(checkDate);
 
-        const data = await fetchKillStatsFor(worldName, ymd);
-        if (Array.isArray(data)) {
-            hadAnyData = true;
-            for (const entry of data) {
-                const race = typeof entry?.race === 'string' ? entry.race : '';
-                if (!race || race[0] !== race[0]?.toUpperCase()) continue; // Only consider capitalized
-                if (!bossNameSet.has(race)) continue; // Only bosses we track
-                if (!lastSeenByBoss.has(race)) {
-                    lastSeenByBoss.set(race, ymd);
-                }
-            }
-            if (lastSeenByBoss.size === bossNameSet.size) {
-                break; // Found all bosses
-            }
+    const data = await fetchKillStatsFor(worldName, ymd);
+    const entries = data?.killstatistics?.entries;
+    if (Array.isArray(entries)) {
+      hadAnyData = true;
+      for (const entry of entries) {
+        const race = typeof entry?.race === 'string' ? entry.race : '';
+        if (!race || race[0] !== race[0]?.toUpperCase()) continue; // Only consider capitalized
+        if (!bossNameSet.has(race)) continue; // Only bosses we track
+        const killedToday = Number(entry?.last_day_killed) > 0;
+        if (!killedToday) continue; // Only mark as last seen if killed this day
+        if (!lastSeenByBoss.has(race)) {
+          lastSeenByBoss.set(race, ymd);
         }
+      }
+      if (lastSeenByBoss.size === bossNameSet.size) {
+        break; // Found all bosses
+      }
+    }
         // If null/invalid, continue to older dates without breaking
     }
 

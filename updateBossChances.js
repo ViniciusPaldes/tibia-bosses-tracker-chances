@@ -34,7 +34,8 @@ async function processInBatches(items, concurrency, worker) {
 async function main() {
   const bossConfig = await loadBossConfig('bossConfig.json');
   const bossNames = bossConfig.map(b => b.name);
-  const worlds = await fetchWorlds();
+//   const worlds = await fetchWorlds();
+    const worlds = ["Venebra"];
 
   const today = startOfDayUTC(new Date());
   const todayYmd = formatDateToUTCString(today);
@@ -48,14 +49,14 @@ async function main() {
   let filesWritten = 0;
 
   await processInBatches(worlds, 6, async (worldName) => {
-    const { lastSeenByBoss, hadAnyData } = await getLastSeenByBossForWorld(worldName, bossNames, 365, today);
+    const { lastSeenByBoss, hadAnyData } = await getLastSeenByBossForWorld(worldName, bossNames, 180, today);
 
     const worldDir = path.join(dataRoot, worldName);
     await ensureDir(worldDir);
     const outFile = path.join(worldDir, `${todayYmd}.json`);
 
     if (!hadAnyData) {
-      console.log(`World '${worldName}' has no data for the last 365 days. Writing empty array to ${outFile}.`);
+      console.log(`World '${worldName}' has no data for the last 180 days. Writing empty array to ${outFile}.`);
       await writeJson(outFile, []);
       filesWritten++;
       console.log(`Wrote ${outFile} (0 bosses).`);

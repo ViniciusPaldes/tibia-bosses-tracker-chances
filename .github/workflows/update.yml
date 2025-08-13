@@ -46,7 +46,6 @@ jobs:
             - Includes daily boss chances JSON under `data/<World>/<YYYY-MM-DD>.json`.
           branch: chore/data-update
           delete-branch: true
-          labels: automated, data-update
           signoff: false
 
       # Enable auto-merge on the PR (requires repo setting "Allow auto-merge" enabled)

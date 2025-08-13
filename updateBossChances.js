@@ -34,7 +34,8 @@ async function processInBatches(items, concurrency, worker) {
 async function main() {
   const bossConfig = await loadBossConfig('bossConfig.json');
   const bossNames = bossConfig.map(b => b.name);
-  const worlds = await fetchWorlds();
+//   const worlds = await fetchWorlds();
+    const worlds = ["Venebra"];
 
   const today = startOfDayUTC(new Date());
   const todayYmd = formatDateToUTCString(today);
@@ -42,18 +43,36 @@ async function main() {
   const dataRoot = path.join('data');
   await ensureDir(dataRoot);
 
-  await processInBatches(worlds, 6, async (worldName) => {
-    const { lastSeenByBoss, hadAnyData } = await getLastSeenByBossForWorld(worldName, bossNames, 365, today);
-    if (!hadAnyData) {
-      return; // Skip world if no data found in last 365 days
-    }
+  console.log(`Loaded bossConfig with ${bossConfig.length} bosses.`);
+  console.log(`Fetched ${worlds.length} worlds. First 5: ${worlds.slice(0, 5).join(', ')}`);
 
-    const results = calculateChancesForWorld(bossConfig, lastSeenByBoss, today);
+  let filesWritten = 0;
+
+  await processInBatches(worlds, 6, async (worldName) => {
+    const { lastSeenByBoss, hadAnyData } = await getLastSeenByBossForWorld(worldName, bossNames, 180, today);
+
     const worldDir = path.join(dataRoot, worldName);
     await ensureDir(worldDir);
     const outFile = path.join(worldDir, `${todayYmd}.json`);
+
+    if (!hadAnyData) {
+      console.log(`World '${worldName}' has no data for the last 180 days. Writing empty array to ${outFile}.`);
+      await writeJson(outFile, []);
+      filesWritten++;
+      console.log(`Wrote ${outFile} (0 bosses).`);
+      return;
+    }
+
+    const results = calculateChancesForWorld(bossConfig, lastSeenByBoss, today);
     await writeJson(outFile, results);
+    filesWritten++;
+    console.log(`Wrote ${outFile} (${results.length} bosses).`);
   });
+
+  console.log(`Total files written: ${filesWritten}`);
+  if (filesWritten === 0) {
+    console.warn('No files were written. This may cause no changes to commit.');
+  }
 }
 
 main().catch((err) => {

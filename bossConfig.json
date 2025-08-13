@@ -1,6 +1,6 @@
 [
     {
-        "name": "Arachir The Ancient One",
+        "name": "Arachir the Ancient One",
         "start_day": 6,
         "end_day": 9,
         "city": "Darashia",
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name": "Diblis The Fair",
+        "name": "Diblis the Fair",
         "start_day": 10,
         "end_day": 16,
         "city": "Liberty Bay",
@@ -139,7 +139,7 @@
     {
         "name": "Foreman Kneebiter",
         "start_day": 3,
-        "end_day": 7,
+        "end_day": 12,
         "city": "Kazordoon",
         "location": [
             "32556,31880,15:2"
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "name": "Hairman The Huge",
+        "name": "Hairman the Huge",
         "start_day": 5,
         "end_day": 10,
         "city": "Port Hope",
@@ -278,7 +278,7 @@
         ]
     },
     {
-        "name": "Man in The Cave",
+        "name": "Man in the Cave",
         "start_day": 12,
         "end_day": 16,
         "city": "Svargrond",
@@ -360,7 +360,7 @@
             "32350,31052,7:6"
         ],
         "loot": [
-            "Eye Of The Storm",
+            "Eye of the Storm",
             "Silver Raid Token"
         ]
     },
@@ -619,7 +619,7 @@
         ]
     },
     {
-        "name": "Tzumrah The Dazzler",
+        "name": "Tzumrah the Dazzler",
         "start_day": 20,
         "end_day": 28,
         "city": "Ankrahmun",
@@ -671,7 +671,7 @@
         ]
     },
     {
-        "name": "Yaga The Crone",
+        "name": "Yaga the Crone",
         "start_day": 5,
         "end_day": 7,
         "city": "Venore",

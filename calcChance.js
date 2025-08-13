@@ -17,6 +17,7 @@ export async function loadBossConfig(configPath = 'bossConfig.json') {
     throw new Error('bossConfig.json must be an array');
   }
   return parsed.map(b => ({
+    ...b,
     name: String(b.name),
     start_day: Number(b.start_day),
     end_day: Number(b.end_day)
@@ -39,7 +40,9 @@ export function calculateChancesForWorld(bossConfig, lastSeenByBoss, today) {
     } else if (lastSeen) {
       const lastSeenDate = new Date(`${lastSeen}T00:00:00.000Z`);
       const daysSince = daysBetweenUTC(todaySod, lastSeenDate);
-      if (daysSince >= boss.start_day && daysSince <= boss.end_day) {
+      if (daysSince > boss.end_day + 1) {
+        chance = 'Lost Track';
+      } else if (daysSince >= boss.start_day && daysSince <= boss.end_day) {
         chance = 'high';
       } else if (daysSince === boss.start_day - 1 || daysSince === boss.end_day + 1) {
         chance = 'medium';
@@ -50,7 +53,7 @@ export function calculateChancesForWorld(bossConfig, lastSeenByBoss, today) {
       chance = 'low';
     }
 
-    results.push({ bossName: boss.name, lastSeen, chance });
+    results.push({ ...boss, bossName: boss.name, lastSeen, chance });
   }
 
   return results;

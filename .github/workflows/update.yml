@@ -1,0 +1,37 @@
+name: Update Boss Spawn Chances
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # 10:00 CEST (08:00 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run update script
+        run: node updateBossChances.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git commit -m "chore(data): update boss chances for $(date -u +'%Y-%m-%d')" || exit 0
+          git push
+
+

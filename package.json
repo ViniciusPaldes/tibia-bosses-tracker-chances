@@ -1,0 +1,16 @@
+{
+  "name": "tibia-bosses-tracker-chances",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Tibia boss spawn chance data generator for GitHub Actions.",
+  "scripts": {
+    "start": "node updateBossChances.js",
+    "update": "node updateBossChances.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
+

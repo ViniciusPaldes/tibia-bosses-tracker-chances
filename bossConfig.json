@@ -47,7 +47,7 @@
         "location": [
             "32793,32369,15:2"
         ],
-        "loot": [
+        "loots": [
             "Silver Mace",
             "Countess Sorrow's Frozen Tear"
         ]
@@ -60,7 +60,7 @@
         "location": [
             "33038,32176,9:2"
         ],
-        "loot": [
+        "loots": [
             "Cornucopia"
         ]
     },
@@ -72,7 +72,7 @@
         "location": [
             "32008,32795,10:4"
         ],
-        "loot": [
+        "loots": [
             "Vampire Lord Token"
         ]
     },
@@ -84,7 +84,7 @@
         "location": [
             "32835,32309,15:2"
         ],
-        "loot": [
+        "loots": [
             "Reaper's Axe",
             "Dracola's Eye"
         ]
@@ -107,7 +107,7 @@
         "location": [
             "32121,32688,7:1"
         ],
-        "loot": [
+        "loots": [
             "Tempest Shield",
             "Ferumbras' Hat",
             "Impaler",
@@ -153,20 +153,20 @@
         "location": [
             "33314,31841,15:2"
         ],
-        "loot": [
+        "loots": [
             "Phoenix Shield",
             "Furious Frock"
         ]
     },
     {
-        "name": "Gaz'haragoth",
+        "name": "Gaz'Haragoth",
         "start_day": 13,
         "end_day": 27,
         "city": "Svargrond",
         "location": [
             "33536,32381,12:2"
         ],
-        "loot": [
+        "loots": [
             "Demonic Tapestry",
             "Dream Warden Claw",
             "Nightmare Horn",
@@ -197,7 +197,7 @@
         "location": [
             "32226,31158,15:2"
         ],
-        "loot": [
+        "loots": [
             "Ghazbaran Oyoroi",
             "Teddy Bear",
             "Thunder Hammer",
@@ -212,7 +212,7 @@
         "location": [
             "33310,31179,7:2"
         ],
-        "loot": [
+        "loots": [
             "Silver Raid Token"
         ]
     },
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "name": "Hairman the Huge",
+        "name": "Hairman The Huge",
         "start_day": 5,
         "end_day": 10,
         "city": "Port Hope",
@@ -252,7 +252,7 @@
             "33044,31088,14:2",
             "33098,31101,14:2"
         ],
-        "loot": [
+        "loots": [
             "Zaoan Monk Robe",
             "Snake God's Wristguard",
             "Snake God's Sceptre"
@@ -278,14 +278,14 @@
         ]
     },
     {
-        "name": "Man in the Cave",
+        "name": "Man In The Cave",
         "start_day": 12,
         "end_day": 16,
         "city": "Svargrond",
         "location": [
             "32131,31147,2:3"
         ],
-        "loot": [
+        "loots": [
             "Fur Cap"
         ]
     },
@@ -297,7 +297,7 @@
         "location": [
             "32883,32279,15:2"
         ],
-        "loot": [
+        "loots": [
             "Berserker",
             "Great Shield",
             "Heavy Mace",
@@ -312,7 +312,7 @@
         "location": [
             "32063,32610,14:2"
         ],
-        "loot": [
+        "loots": [
             "Morgaroth's Head",
             "Dark Lord's Cape",
             "Morgaroth's Heart",
@@ -328,7 +328,7 @@
         "location": [
             "33118,31701,7:2"
         ],
-        "loot": [
+        "loots": [
             "Green Demon Armor",
             "Green Demon Helmet",
             "Green Demon Legs",
@@ -346,7 +346,7 @@
         "location": [
             "32761,32243,15:2"
         ],
-        "loot": [
+        "loots": [
             "Ravager's Axe",
             "Mr. Punish's Handcuffs"
         ]
@@ -359,7 +359,7 @@
         "location": [
             "32350,31052,7:6"
         ],
-        "loot": [
+        "loots": [
             "Eye of the Storm",
             "Silver Raid Token"
         ]
@@ -372,7 +372,7 @@
         "location": [
             "33589,32379,12:2"
         ],
-        "loot": [
+        "loots": [
             "Eye Pod",
             "Nightmare Hook",
             "Dream Warden Mask",
@@ -387,7 +387,7 @@
         "location": [
             "33118,31701,7:2"
         ],
-        "loot": [
+        "loots": [
             "Teddy Bear",
             "Thunder Hammer",
             "Orshabaal's Brain"
@@ -401,7 +401,7 @@
         "location": [
             "33927,32336,8:2"
         ],
-        "loot": [
+        "loots": [
             "Mighty Demonic Core Essence",
             "Rotrender's Sceptre",
             "Rotrender Claw",
@@ -421,7 +421,7 @@
             "32262,32689,10:2",
             "32775,31601,12:2"
         ],
-        "loot": [
+        "loots": [
             "Gland"
         ]
     },
@@ -442,7 +442,7 @@
         "location": [
             "33172,31731,9:5"
         ],
-        "loot": [
+        "loots": [
             "Glass of Goo",
             "Goo Shell",
             "Silver Raid Token"
@@ -456,7 +456,7 @@
         "location": [
             "33270,31770,10:5"
         ],
-        "loot": [
+        "loots": [
             "Vampire Lord Token"
         ]
     },
@@ -477,7 +477,7 @@
         "location": [
             "32431,31029,15:2"
         ],
-        "loot": [
+        "loots": [
             "Abomination's Tongue",
             "Abomination's Eye",
             "Abomination's Tail",
@@ -528,7 +528,7 @@
         "location": [
             "32786,32277,15:2"
         ],
-        "loot": [
+        "loots": [
             "Handmaiden's Protector"
         ]
     },
@@ -540,7 +540,7 @@
         "location": [
             "32907,32217,15:2"
         ],
-        "loot": [
+        "loots": [
             "Tempest Shield",
             "The Imperor's Trident"
         ]
@@ -562,7 +562,7 @@
         "location": [
             "32973,32420,15:2"
         ],
-        "loot": [
+        "loots": [
             "The Vampire Count's Medal",
             "Vampire Silk Slippers",
             "Vampire's Signet Ring",
@@ -577,12 +577,12 @@
         "location": [
             "32852,32334,15:2"
         ],
-        "loot": [
+        "loots": [
             "The Plasmother's Remains"
         ]
     },
     {
-        "name": "The Voice Of Ruin",
+        "name": "The Voice of Ruin",
         "start_day": 5,
         "end_day": 8,
         "city": "Zao",
@@ -598,7 +598,7 @@
         "location": [
             "33027,32658,5:4"
         ],
-        "loot": [
+        "loots": [
             "Shrunken Head Necklace",
             "Triple Bolt Crossbow",
             "Silver Raid Token"
@@ -613,7 +613,7 @@
             "32438,32850,9:2",
             "33049,32375,14:2"
         ],
-        "loot": [
+        "loots": [
             "Silver Raid Token",
             "Sun Mirror"
         ]
@@ -646,7 +646,7 @@
             "33269,31870,11:5",
             "32224,32761,10:5"
         ],
-        "loot": [
+        "loots": [
             "Albino Plate",
             "Horn (Ring)",
             "Silver Raid Token"
@@ -696,7 +696,7 @@
         "location": [
             "32761,31571,11:4"
         ],
-        "loot": [
+        "loots": [
             "Vampire Lord Token"
         ]
     },
@@ -717,7 +717,7 @@
         "location": [
             "33348,31609,1:2"
         ],
-        "loot": [
+        "loots": [
             "Dragon Scale Boots",
             "Earthborn Titan Armor"
         ]
@@ -730,7 +730,7 @@
         "location": [
             "31942,31387,9:5"
         ],
-        "loot": [
+        "loots": [
             "Icy Culottes",
             "Queen's Sceptre",
             "Silver Raid Token",

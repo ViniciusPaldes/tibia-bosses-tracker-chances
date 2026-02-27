@@ -1,0 +1,926 @@
+[
+  {
+    "name": "Arachir the Ancient One",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Darashia",
+    "location": [
+      "32968,32400,12:2"
+    ],
+    "loots": [
+      "Bloody Edge",
+      "Vampire Lord Token"
+    ],
+    "lastSeen": "2026-02-22",
+    "daysSince": 6,
+    "chance": "high"
+  },
+  {
+    "name": "Barbaria",
+    "start_day": 8,
+    "end_day": 12,
+    "city": "Svargrond",
+    "location": [
+      "32009,31419,7:2"
+    ],
+    "lastSeen": "2026-02-17",
+    "daysSince": 11,
+    "chance": "high"
+  },
+  {
+    "name": "Big Boss Trolliver",
+    "start_day": 3,
+    "end_day": 7,
+    "city": "Edron",
+    "location": [
+      "33134,31721,10:2"
+    ],
+    "lastSeen": "2026-02-08",
+    "daysSince": 20,
+    "chance": "Lost Track"
+  },
+  {
+    "name": "Captain Jones",
+    "start_day": 6,
+    "end_day": 10,
+    "city": "Darashia",
+    "location": [
+      "33325,32183,7:2"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "low"
+  },
+  {
+    "name": "Countess Sorrow",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32793,32369,15:2"
+    ],
+    "loots": [
+      "Silver Mace",
+      "Countess Sorrow's Frozen Tear"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "no chance"
+  },
+  {
+    "name": "Dharalion",
+    "start_day": 6,
+    "end_day": 8,
+    "city": "Venore",
+    "location": [
+      "33038,32176,9:2"
+    ],
+    "loots": [
+      "Cornucopia"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "low"
+  },
+  {
+    "name": "Diblis the Fair",
+    "start_day": 10,
+    "end_day": 16,
+    "city": "Liberty Bay",
+    "location": [
+      "32008,32795,10:4"
+    ],
+    "loots": [
+      "Vampire Lord Token"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "no chance"
+  },
+  {
+    "name": "Dracola",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32835,32309,15:2"
+    ],
+    "loots": [
+      "Reaper's Axe",
+      "Dracola's Eye"
+    ],
+    "lastSeen": "2026-02-17",
+    "daysSince": 11,
+    "chance": "no chance"
+  },
+  {
+    "name": "Dreadmaw",
+    "start_day": 11,
+    "end_day": 17,
+    "city": "Zao",
+    "location": [
+      "33273,31149,7:2",
+      "33299,31149,7:2"
+    ],
+    "lastSeen": "2026-01-06",
+    "daysSince": 53,
+    "chance": "Lost Track"
+  },
+  {
+    "name": "Ferumbras",
+    "start_day": 161,
+    "end_day": 175,
+    "city": "Liberty Bay",
+    "location": [
+      "32121,32688,7:1"
+    ],
+    "loots": [
+      "Tempest Shield",
+      "Ferumbras' Hat",
+      "Impaler",
+      "Great Axe",
+      "Havoc Blade"
+    ],
+    "lastSeen": "2026-01-09",
+    "daysSince": 50,
+    "chance": "no chance"
+  },
+  {
+    "name": "Flamecaller Zazrak",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Zao",
+    "location": [
+      "33182,31218,7:2",
+      "33252,31151,6:2"
+    ],
+    "lastSeen": "2026-02-20",
+    "daysSince": 8,
+    "chance": "high"
+  },
+  {
+    "name": "Fleabringer",
+    "start_day": 1,
+    "end_day": 10,
+    "city": "Zao",
+    "location": [
+      "33094,31381,8:2",
+      "33112,31456,8:2",
+      "33251,31420,7:2"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "high"
+  },
+  {
+    "name": "Foreman Kneebiter",
+    "start_day": 3,
+    "end_day": 12,
+    "city": "Kazordoon",
+    "location": [
+      "32556,31880,15:2"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "high"
+  },
+  {
+    "name": "Furyosa",
+    "start_day": 12,
+    "end_day": 43,
+    "city": "Vários",
+    "location": [
+      "33314,31841,15:2"
+    ],
+    "loots": [
+      "Phoenix Shield",
+      "Furious Frock"
+    ],
+    "lastSeen": "2026-01-29",
+    "daysSince": 30,
+    "chance": "high"
+  },
+  {
+    "name": "Gaz'Haragoth",
+    "start_day": 13,
+    "end_day": 27,
+    "city": "Svargrond",
+    "location": [
+      "33536,32381,12:2"
+    ],
+    "loots": [
+      "Demonic Tapestry",
+      "Dream Warden Claw",
+      "Nightmare Horn",
+      "Psychedelic Tapestry",
+      "Umbral Master Axe",
+      "Umbral Master Bow",
+      "Umbral Master Chopper",
+      "Umbral Master Crossbow",
+      "Umbral Master Hammer",
+      "Umbral Master Mace",
+      "Umbral Master Slayer"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "General Murius",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Darashia",
+    "location": [
+      "32418,32121,15:2"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "no chance"
+  },
+  {
+    "name": "Ghazbaran",
+    "start_day": 161,
+    "end_day": 175,
+    "city": "Liberty Bay",
+    "location": [
+      "32226,31158,15:2"
+    ],
+    "loots": [
+      "Ghazbaran Oyoroi",
+      "Teddy Bear",
+      "Thunder Hammer",
+      "Twin Axe"
+    ],
+    "lastSeen": "2026-01-11",
+    "daysSince": 48,
+    "chance": "no chance"
+  },
+  {
+    "name": "Grand Mother Foulscale",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Zao",
+    "location": [
+      "33310,31179,7:2"
+    ],
+    "loots": [
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-27",
+    "daysSince": 1,
+    "chance": "no chance"
+  },
+  {
+    "name": "Grandfather Tridian",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Liberty Bay",
+    "location": [
+      "32417,32779,11:2"
+    ],
+    "lastSeen": "2026-02-22",
+    "daysSince": 6,
+    "chance": "high"
+  },
+  {
+    "name": "Gravelord Oshuran",
+    "start_day": 7,
+    "end_day": 12,
+    "city": "Darashia",
+    "location": [
+      "32978,32395,12:6"
+    ],
+    "lastSeen": "2026-02-22",
+    "daysSince": 6,
+    "chance": "medium"
+  },
+  {
+    "name": "Hairman The Huge",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Port Hope",
+    "location": [
+      "32845,32510,8:2"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "Hatebreeder",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Zao",
+    "location": [
+      "33044,31088,14:2",
+      "33098,31101,14:2"
+    ],
+    "loots": [
+      "Zaoan Monk Robe",
+      "Snake God's Wristguard",
+      "Snake God's Sceptre"
+    ],
+    "lastSeen": "2026-02-26",
+    "daysSince": 2,
+    "chance": "no chance"
+  },
+  {
+    "name": "High Templar Cobrass",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Port Hope",
+    "location": [
+      "32957,32839,8:2"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "no chance"
+  },
+  {
+    "name": "Hirintror",
+    "start_day": 1,
+    "end_day": 12,
+    "city": "Svargrond",
+    "location": [
+      "32145,31257,10:2",
+      "32366,31053,8:2"
+    ],
+    "lastSeen": "2026-02-23",
+    "daysSince": 5,
+    "chance": "high"
+  },
+  {
+    "name": "Man In The Cave",
+    "start_day": 12,
+    "end_day": 16,
+    "city": "Svargrond",
+    "location": [
+      "32131,31147,2:3"
+    ],
+    "loots": [
+      "Fur Cap"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "Massacre",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32883,32279,15:2"
+    ],
+    "loots": [
+      "Berserker",
+      "Great Shield",
+      "Heavy Mace",
+      "Piece of Massacre's Shell"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "no chance"
+  },
+  {
+    "name": "Morgaroth",
+    "start_day": 168,
+    "end_day": 175,
+    "city": "Liberty Bay",
+    "location": [
+      "32063,32610,14:2"
+    ],
+    "loots": [
+      "Morgaroth's Head",
+      "Dark Lord's Cape",
+      "Morgaroth's Heart",
+      "Royal Crossbow",
+      "Teddy Bear"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "Morshabaal",
+    "start_day": 154,
+    "end_day": 174,
+    "city": "Edron",
+    "location": [
+      "33118,31701,7:2"
+    ],
+    "loots": [
+      "Green Demon Armor",
+      "Green Demon Helmet",
+      "Green Demon Legs",
+      "Green Demon Slippers",
+      "Morshabaal's Brain",
+      "Morshabaal's Extract",
+      "Morshabaal's Mask"
+    ],
+    "lastSeen": "2026-02-06",
+    "daysSince": 22,
+    "chance": "no chance"
+  },
+  {
+    "name": "Mr. Punish",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32761,32243,15:2"
+    ],
+    "loots": [
+      "Ravager's Axe",
+      "Mr. Punish's Handcuffs"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "no chance"
+  },
+  {
+    "name": "Ocyakao",
+    "start_day": 16,
+    "end_day": 26,
+    "city": "Svargrond",
+    "location": [
+      "32350,31052,7:6"
+    ],
+    "loots": [
+      "Eye of the Storm",
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-27",
+    "daysSince": 1,
+    "chance": "no chance"
+  },
+  {
+    "name": "Omrafir",
+    "start_day": 14,
+    "end_day": 28,
+    "city": "Roshamuul",
+    "location": [
+      "33589,32379,12:2"
+    ],
+    "loots": [
+      "Eye Pod",
+      "Nightmare Hook",
+      "Dream Warden Mask",
+      "Nightmare Horn"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "no chance"
+  },
+  {
+    "name": "Orshabaal",
+    "start_day": 153,
+    "end_day": 175,
+    "city": "Edron",
+    "location": [
+      "33118,31701,7:2"
+    ],
+    "loots": [
+      "Teddy Bear",
+      "Thunder Hammer",
+      "Orshabaal's Brain"
+    ],
+    "lastSeen": "2026-01-19",
+    "daysSince": 40,
+    "chance": "no chance"
+  },
+  {
+    "name": "Rotrender",
+    "start_day": 153,
+    "end_day": 175,
+    "city": "Edron",
+    "location": [
+      "33927,32336,8:2"
+    ],
+    "loots": [
+      "Mighty Demonic Core Essence",
+      "Rotrender's Sceptre",
+      "Rotrender Claw",
+      "Rotrender Scalp",
+      "Demon in a Golden Box",
+      "Demon in a Red Box"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "Rotworm Queen",
+    "start_day": 1,
+    "end_day": 26,
+    "city": "Vários",
+    "location": [
+      "33054,32371,9:2",
+      "33233,31846,9:2",
+      "32262,32689,10:2",
+      "32775,31601,12:2"
+    ],
+    "loots": [
+      "Gland"
+    ],
+    "lastSeen": "2026-02-20",
+    "daysSince": 8,
+    "chance": "high"
+  },
+  {
+    "name": "Rukor Zad",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Venore",
+    "location": [
+      "32601,32383,10:4"
+    ],
+    "lastSeen": "2026-02-19",
+    "daysSince": 9,
+    "chance": "high"
+  },
+  {
+    "name": "Shlorg",
+    "start_day": 13,
+    "end_day": 29,
+    "city": "Edron",
+    "location": [
+      "33172,31731,9:5"
+    ],
+    "loots": [
+      "Glass of Goo",
+      "Goo Shell",
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-26",
+    "daysSince": 2,
+    "chance": "no chance"
+  },
+  {
+    "name": "Sir Valorcrest",
+    "start_day": 5,
+    "end_day": 9,
+    "city": "Edron",
+    "location": [
+      "33270,31770,10:5"
+    ],
+    "loots": [
+      "Vampire Lord Token"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "high"
+  },
+  {
+    "name": "Smuggler Baron Silvertoe",
+    "start_day": 8,
+    "end_day": 15,
+    "city": "Port Hope",
+    "location": [
+      "32542,32641,10:2"
+    ],
+    "lastSeen": "2026-02-26",
+    "daysSince": 2,
+    "chance": "no chance"
+  },
+  {
+    "name": "The Abomination",
+    "start_day": 153,
+    "end_day": 174,
+    "city": "Vários",
+    "location": [
+      "32431,31029,15:2"
+    ],
+    "loots": [
+      "Abomination's Tongue",
+      "Abomination's Eye",
+      "Abomination's Tail",
+      "Fiery Horseshoe"
+    ],
+    "lastSeen": "2025-12-26",
+    "daysSince": 64,
+    "chance": "no chance"
+  },
+  {
+    "name": "The Big Bad One",
+    "start_day": 6,
+    "end_day": 11,
+    "city": "Edron",
+    "location": [
+      "33176,31677,7:2"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "high"
+  },
+  {
+    "name": "The Blightfather",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Zao",
+    "location": [
+      "33302,31154,7:2"
+    ],
+    "lastSeen": "2026-02-23",
+    "daysSince": 5,
+    "chance": "high"
+  },
+  {
+    "name": "The Evil Eye",
+    "start_day": 6,
+    "end_day": 12,
+    "city": "Ab'dendriel",
+    "location": [
+      "32806,31612,14:4"
+    ],
+    "lastSeen": "2026-02-19",
+    "daysSince": 9,
+    "chance": "high"
+  },
+  {
+    "name": "The Frog Prince",
+    "start_day": 12,
+    "end_day": 18,
+    "city": "Thais",
+    "location": [
+      "32377,32120,7:2"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "no chance"
+  },
+  {
+    "name": "The Handmaiden",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32786,32277,15:2"
+    ],
+    "loots": [
+      "Handmaiden's Protector"
+    ],
+    "lastSeen": "2026-02-22",
+    "daysSince": 6,
+    "chance": "no chance"
+  },
+  {
+    "name": "The Imperor",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32907,32217,15:2"
+    ],
+    "loots": [
+      "Tempest Shield",
+      "The Imperor's Trident"
+    ],
+    "lastSeen": "2026-02-21",
+    "daysSince": 7,
+    "chance": "no chance"
+  },
+  {
+    "name": "The Old Whopper",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Edron",
+    "location": [
+      "33313,31666,11:2"
+    ],
+    "lastSeen": "2026-02-25",
+    "daysSince": 3,
+    "chance": "low"
+  },
+  {
+    "name": "The Pale Count",
+    "start_day": 16,
+    "end_day": 30,
+    "city": "Darashia",
+    "location": [
+      "32973,32420,15:2"
+    ],
+    "loots": [
+      "The Vampire Count's Medal",
+      "Vampire Silk Slippers",
+      "Vampire's Signet Ring",
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-12",
+    "daysSince": 16,
+    "chance": "high"
+  },
+  {
+    "name": "The Plasmother",
+    "start_day": 14,
+    "end_day": 21,
+    "city": "Venore",
+    "location": [
+      "32852,32334,15:2"
+    ],
+    "loots": [
+      "The Plasmother's Remains"
+    ],
+    "lastSeen": "2026-02-16",
+    "daysSince": 12,
+    "chance": "low"
+  },
+  {
+    "name": "The Voice of Ruin",
+    "start_day": 5,
+    "end_day": 8,
+    "city": "Zao",
+    "location": [
+      "33287,31084,9:2"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "The Welter",
+    "start_day": 16,
+    "end_day": 29,
+    "city": "Port Hope",
+    "location": [
+      "33027,32658,5:4"
+    ],
+    "loots": [
+      "Shrunken Head Necklace",
+      "Triple Bolt Crossbow",
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "no chance"
+  },
+  {
+    "name": "Tyrn",
+    "start_day": 1,
+    "end_day": 18,
+    "city": "Vários",
+    "location": [
+      "32438,32850,9:2",
+      "33049,32375,14:2"
+    ],
+    "loots": [
+      "Silver Raid Token",
+      "Sun Mirror"
+    ],
+    "lastSeen": "2026-02-14",
+    "daysSince": 14,
+    "chance": "high"
+  },
+  {
+    "name": "Tzumrah the Dazzler",
+    "start_day": 20,
+    "end_day": 28,
+    "city": "Ankrahmun",
+    "location": [
+      "33326,32650,11:2"
+    ],
+    "lastSeen": null,
+    "daysSince": null,
+    "chance": "low"
+  },
+  {
+    "name": "Warlord Ruzad",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Venore",
+    "location": [
+      "32968,31725,5:2"
+    ],
+    "lastSeen": "2026-02-20",
+    "daysSince": 8,
+    "chance": "high"
+  },
+  {
+    "name": "White Pale",
+    "start_day": 1,
+    "end_day": 26,
+    "city": "Vários",
+    "location": [
+      "33140,32431,9:6",
+      "33269,31870,11:5",
+      "32224,32761,10:5"
+    ],
+    "loots": [
+      "Albino Plate",
+      "Horn (Ring)",
+      "Silver Raid Token"
+    ],
+    "lastSeen": "2026-02-18",
+    "daysSince": 10,
+    "chance": "high"
+  },
+  {
+    "name": "Willi Wasp",
+    "start_day": 5,
+    "end_day": 10,
+    "city": "Carlin",
+    "location": [
+      "32340,31717,7:2"
+    ],
+    "lastSeen": "2026-02-19",
+    "daysSince": 9,
+    "chance": "high"
+  },
+  {
+    "name": "Xenia",
+    "start_day": 7,
+    "end_day": 14,
+    "city": "Venore",
+    "location": [
+      "32891,31886,9:3"
+    ],
+    "lastSeen": "2026-02-23",
+    "daysSince": 5,
+    "chance": "low"
+  },
+  {
+    "name": "Yaga the Crone",
+    "start_day": 5,
+    "end_day": 7,
+    "city": "Venore",
+    "location": [
+      "32710,32008,11:2"
+    ],
+    "lastSeen": "2026-02-26",
+    "daysSince": 2,
+    "chance": "no chance"
+  },
+  {
+    "name": "Zarabustor",
+    "start_day": 6,
+    "end_day": 9,
+    "city": "Carlin",
+    "location": [
+      "32510,31579,14:4"
+    ],
+    "lastSeen": "2026-02-16",
+    "daysSince": 12,
+    "chance": "no chance"
+  },
+  {
+    "name": "Zevelon Duskbringer",
+    "start_day": 6,
+    "end_day": 10,
+    "city": "Ab'dendriel",
+    "location": [
+      "32761,31571,11:4"
+    ],
+    "loots": [
+      "Vampire Lord Token"
+    ],
+    "lastSeen": "2026-02-22",
+    "daysSince": 6,
+    "chance": "high"
+  },
+  {
+    "name": "Zomba",
+    "start_day": 3,
+    "end_day": 9,
+    "city": "Darashia",
+    "location": [
+      "33159,32434,7:1"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "high"
+  },
+  {
+    "name": "Zulazza the Corruptor",
+    "start_day": 7,
+    "end_day": 20,
+    "city": "Zao",
+    "location": [
+      "33348,31609,1:2"
+    ],
+    "loots": [
+      "Dragon Scale Boots",
+      "Earthborn Titan Armor"
+    ],
+    "lastSeen": "2026-02-15",
+    "daysSince": 13,
+    "chance": "high"
+  },
+  {
+    "name": "Zushuka",
+    "start_day": 19,
+    "end_day": 28,
+    "city": "Svargrond",
+    "location": [
+      "31942,31387,9:5"
+    ],
+    "loots": [
+      "Icy Culottes",
+      "Queen's Sceptre",
+      "Silver Raid Token",
+      "Trapped Lightning"
+    ],
+    "lastSeen": "2026-02-24",
+    "daysSince": 4,
+    "chance": "no chance"
+  }
+]
